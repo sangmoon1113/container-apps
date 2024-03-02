@@ -1,1 +1,1 @@
-# container-apps
+# Run your application using docker compose
