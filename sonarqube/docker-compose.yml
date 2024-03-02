@@ -7,8 +7,8 @@ services:
       - "9000:9000"
       - "9092:9092"
     volumes:
-      - "data:/opt/sonarqube/data"
-      - "extensions:/opt/sonarqube/extensions"
-      - "logs:/opt/sonarqube/logs"
+      - "./data:/opt/sonarqube/data"
+      - "./extensions:/opt/sonarqube/extensions"
+      - "./logs:/opt/sonarqube/logs"
 
 # docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube:tls-community
