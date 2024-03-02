@@ -1,5 +1,6 @@
 
-* https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+* Apache Airflow: https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+* DockerHub: https://hub.docker.com/r/apache/airflow
 
 
 ## docker-compose.yml
