@@ -1,5 +1,5 @@
 
-* Apache Hadoop: https://hub.docker.com/r/apache/hadoop
+* Docker Hub: https://hub.docker.com/r/apache/hadoop
 
 ## config
 ```
