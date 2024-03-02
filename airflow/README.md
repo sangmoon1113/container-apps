@@ -1,17 +1,10 @@
 
+# Apache Airflow
 * Apache Airflow: https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
 * Docker Hub: https://hub.docker.com/r/apache/airflow
 
-
-## docker-compose.yml
-```bash
-curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.2/docker-compose.yaml'
-```
-
-## .env
-```
-AIRFLOW_UID=50000
-```
+## docker-compose
+* `docker-compose.yml` : `curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.2/docker-compose.yaml'`
 
 ## init
 ```bash

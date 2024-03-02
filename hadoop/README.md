@@ -1,7 +1,8 @@
 
+# Apache Hadoop
 * Docker Hub: https://hub.docker.com/r/apache/hadoop
 
-## config
+## config file
 ```
 CORE-SITE.XML_fs.default.name=hdfs://namenode
 CORE-SITE.XML_fs.defaultFS=hdfs://namenode
