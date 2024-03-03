@@ -1,0 +1,11 @@
+version: "2"
+services:
+  hive:
+    image: apache/hive:${HIVE_VERSION}
+    hostname: hive4
+    container_name: hive4
+    ports:
+      - "10000:10000"
+      - "10002:10002"
+    environment:
+        SERVICE_NAME: metastore
