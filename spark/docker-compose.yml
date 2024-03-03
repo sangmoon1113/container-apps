@@ -1,0 +1,4 @@
+version: "2"
+services:
+  spark:
+    image: apache/spark-py
