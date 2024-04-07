@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+  mariadb-server:
+    container_name: mariadb-server
+    image: mariadb
+    restart: no
+    ports:
+      - 3306:3306
+    volumes:
+      - "./config:/etc/mysql/conf.d"
+      - "./data:/var/lib/mysql"
+    environment:
+      TZ: "Asia/Seoul"
+      MARIADB_ROOT_PASSWORD: password
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    networks:
+      - mariadb
+
+  mariadb-admin:
+    container_name: mariadb-admin
+    image: adminer
+    restart: no
+    ports:
+      - 8080:8080
+    networks:
+      - mariadb
+
+networks:
+  mariadb:
